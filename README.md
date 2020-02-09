@@ -1,19 +1,26 @@
 # EduBot-2WD
 
-![Overview](/gazebo/screenshot/overview.png)
+![Overview](/Gazebo/screenshot/overview.png)
 
 EduBot-2WD is an open-source Two Wheel Robot based on NVIDIA Jetson Nano/RPiv3 for study of Autonomous Mobile Robotics.
 
 This bot is compatible with both Jetbot project and Duckietown Project.
+
+----------------------------------------------------------------------
 
 ### Gazebo Model Provided:
 - This Bot is designed in Onshape.
 - It is then converted to URDF using Onshape-to-URDF Repository.
 - Finally made small changes to convert it xacro format for gazebo.
 
-![edubot-banner](/gazebo/screenshot/edubot-banner.png)
+![edubot-banner](/Gazebo/screenshot/edubot-banner.png)
 
-----------------------------
+### Needs to be Fixed:
+- Errors exists in RobotModel visualization in RViz.
+- Camera works with rqt_image_view but fails in RViz.
+
+----------------------------------------------------------------------
+
 ### Wiki Pages
 - Home
 - Hardware
